@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navBtn {
+    @apply hidden h-8 md:inline-flex 
+    cursor-pointer m-2 hover:scale-125 transition-all duration-150 ease-out;
+  }
+  .profile {
+    @apply hover:scale-125 transition-all duration-150 ease-out;
+  }
+}
+
+.btn {
+  @apply h-7  hover:scale-125 cursor-pointer transition-all duration-150 ease-out;
+}
+.MobileMenuBtn {
+  @apply h-8 p-1  hover:scale-125 cursor-pointer transition-all duration-150 ease-out hover:text-blue-900;
+}
+
+body {
+  height: 100vh;
+}
