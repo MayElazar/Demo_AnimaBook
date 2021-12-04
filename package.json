@@ -5,6 +5,9 @@
     "build": "next build",
     "start": "next start"
   },
+  "presets": [
+    "next/babel"
+  ],
   "dependencies": {
     "@headlessui/react": "^1.4.2",
     "@heroicons/react": "^1.0.5",
